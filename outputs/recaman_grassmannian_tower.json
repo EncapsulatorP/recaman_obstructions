@@ -1,0 +1,423 @@
+{
+  "config": {
+    "steps": 50000,
+    "vec_dim": 256,
+    "j_max": 12,
+    "win_size": 16,
+    "pca_k": 8,
+    "seed": 7
+  },
+  "two_kernel": {
+    "vec_dim": 256,
+    "j_max": 12,
+    "stream_length": 50000,
+    "obstruction_rate": 0.50018,
+    "real": [
+      {
+        "level": 0,
+        "subseqs_added": 1,
+        "cumul_subseqs": 1,
+        "rank": 1,
+        "new_independent": 1
+      },
+      {
+        "level": 1,
+        "subseqs_added": 2,
+        "cumul_subseqs": 3,
+        "rank": 3,
+        "new_independent": 2
+      },
+      {
+        "level": 2,
+        "subseqs_added": 4,
+        "cumul_subseqs": 7,
+        "rank": 7,
+        "new_independent": 4
+      },
+      {
+        "level": 3,
+        "subseqs_added": 8,
+        "cumul_subseqs": 15,
+        "rank": 15,
+        "new_independent": 8
+      },
+      {
+        "level": 4,
+        "subseqs_added": 16,
+        "cumul_subseqs": 31,
+        "rank": 31,
+        "new_independent": 16
+      },
+      {
+        "level": 5,
+        "subseqs_added": 32,
+        "cumul_subseqs": 63,
+        "rank": 63,
+        "new_independent": 32
+      },
+      {
+        "level": 6,
+        "subseqs_added": 64,
+        "cumul_subseqs": 127,
+        "rank": 127,
+        "new_independent": 64
+      },
+      {
+        "level": 7,
+        "subseqs_added": 128,
+        "cumul_subseqs": 255,
+        "rank": 221,
+        "new_independent": 94
+      },
+      {
+        "level": 8,
+        "subseqs_added": 256,
+        "cumul_subseqs": 511,
+        "rank": 251,
+        "new_independent": 30
+      },
+      {
+        "level": 9,
+        "subseqs_added": 512,
+        "cumul_subseqs": 1023,
+        "rank": 253,
+        "new_independent": 2
+      },
+      {
+        "level": 10,
+        "subseqs_added": 1024,
+        "cumul_subseqs": 2047,
+        "rank": 253,
+        "new_independent": 0
+      },
+      {
+        "level": 11,
+        "subseqs_added": 2048,
+        "cumul_subseqs": 4095,
+        "rank": 253,
+        "new_independent": 0
+      },
+      {
+        "level": 12,
+        "subseqs_added": 4096,
+        "cumul_subseqs": 8191,
+        "rank": 253,
+        "new_independent": 0
+      }
+    ],
+    "null_random": [
+      {
+        "level": 0,
+        "subseqs_added": 1,
+        "cumul_subseqs": 1,
+        "rank": 1,
+        "new_independent": 1
+      },
+      {
+        "level": 1,
+        "subseqs_added": 2,
+        "cumul_subseqs": 3,
+        "rank": 3,
+        "new_independent": 2
+      },
+      {
+        "level": 2,
+        "subseqs_added": 4,
+        "cumul_subseqs": 7,
+        "rank": 7,
+        "new_independent": 4
+      },
+      {
+        "level": 3,
+        "subseqs_added": 8,
+        "cumul_subseqs": 15,
+        "rank": 15,
+        "new_independent": 8
+      },
+      {
+        "level": 4,
+        "subseqs_added": 16,
+        "cumul_subseqs": 31,
+        "rank": 31,
+        "new_independent": 16
+      },
+      {
+        "level": 5,
+        "subseqs_added": 32,
+        "cumul_subseqs": 63,
+        "rank": 63,
+        "new_independent": 32
+      },
+      {
+        "level": 6,
+        "subseqs_added": 64,
+        "cumul_subseqs": 127,
+        "rank": 127,
+        "new_independent": 64
+      },
+      {
+        "level": 7,
+        "subseqs_added": 128,
+        "cumul_subseqs": 255,
+        "rank": 255,
+        "new_independent": 128
+      },
+      {
+        "level": 8,
+        "subseqs_added": 256,
+        "cumul_subseqs": 511,
+        "rank": 256,
+        "new_independent": 1
+      },
+      {
+        "level": 9,
+        "subseqs_added": 512,
+        "cumul_subseqs": 1023,
+        "rank": 256,
+        "new_independent": 0
+      },
+      {
+        "level": 10,
+        "subseqs_added": 1024,
+        "cumul_subseqs": 2047,
+        "rank": 256,
+        "new_independent": 0
+      },
+      {
+        "level": 11,
+        "subseqs_added": 2048,
+        "cumul_subseqs": 4095,
+        "rank": 256,
+        "new_independent": 0
+      },
+      {
+        "level": 12,
+        "subseqs_added": 4096,
+        "cumul_subseqs": 8191,
+        "rank": 256,
+        "new_independent": 0
+      }
+    ],
+    "pure_alternation": [
+      {
+        "level": 0,
+        "subseqs_added": 1,
+        "cumul_subseqs": 1,
+        "rank": 1,
+        "new_independent": 1
+      },
+      {
+        "level": 1,
+        "subseqs_added": 2,
+        "cumul_subseqs": 3,
+        "rank": 2,
+        "new_independent": 1
+      },
+      {
+        "level": 2,
+        "subseqs_added": 4,
+        "cumul_subseqs": 7,
+        "rank": 2,
+        "new_independent": 0
+      },
+      {
+        "level": 3,
+        "subseqs_added": 8,
+        "cumul_subseqs": 15,
+        "rank": 2,
+        "new_independent": 0
+      },
+      {
+        "level": 4,
+        "subseqs_added": 16,
+        "cumul_subseqs": 31,
+        "rank": 2,
+        "new_independent": 0
+      },
+      {
+        "level": 5,
+        "subseqs_added": 32,
+        "cumul_subseqs": 63,
+        "rank": 2,
+        "new_independent": 0
+      },
+      {
+        "level": 6,
+        "subseqs_added": 64,
+        "cumul_subseqs": 127,
+        "rank": 2,
+        "new_independent": 0
+      },
+      {
+        "level": 7,
+        "subseqs_added": 128,
+        "cumul_subseqs": 255,
+        "rank": 2,
+        "new_independent": 0
+      },
+      {
+        "level": 8,
+        "subseqs_added": 256,
+        "cumul_subseqs": 511,
+        "rank": 4,
+        "new_independent": 2
+      },
+      {
+        "level": 9,
+        "subseqs_added": 512,
+        "cumul_subseqs": 1023,
+        "rank": 6,
+        "new_independent": 2
+      },
+      {
+        "level": 10,
+        "subseqs_added": 1024,
+        "cumul_subseqs": 2047,
+        "rank": 8,
+        "new_independent": 2
+      },
+      {
+        "level": 11,
+        "subseqs_added": 2048,
+        "cumul_subseqs": 4095,
+        "rank": 10,
+        "new_independent": 2
+      },
+      {
+        "level": 12,
+        "subseqs_added": 4096,
+        "cumul_subseqs": 8191,
+        "rank": 12,
+        "new_independent": 2
+      }
+    ],
+    "interpretation": "Pure alternation has 2-kernel rank 2 (two constant subsequences). Recaman b_n has phase-slip rate ~0.001, so expect rank slightly > 2. Random has rank ~ min(D, cumulative_subseqs) \u2014 grows fast. Rank stabilisation \u2192 finite 2-kernel \u2192 stream is 2-automatic."
+  },
+  "branch_grassmannian": {
+    "taken_count": 24991,
+    "blocked_count": 9626,
+    "sample_size": 9626,
+    "pca_k": 8,
+    "taken_vs_blocked_candidates": {
+      "chordal_distance": 0.099937,
+      "principal_angles_deg": [
+        0.0,
+        0.0,
+        0.042,
+        0.142,
+        0.287,
+        0.408,
+        0.523,
+        5.688
+      ],
+      "cosines": [
+        1.0,
+        1.0,
+        1.0,
+        0.999997,
+        0.999987,
+        0.999975,
+        0.999958,
+        0.995077
+      ],
+      "k_used": 8
+    },
+    "down_vs_up_values": {
+      "chordal_distance": 0.07207,
+      "principal_angles_deg": [
+        0.0,
+        0.0,
+        0.006,
+        0.015,
+        0.046,
+        0.101,
+        0.375,
+        4.114
+      ],
+      "cosines": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.999998,
+        0.999979,
+        0.997423
+      ],
+      "k_used": 8
+    },
+    "null_shuffled_labels": {
+      "chordal_distance": 0.024627,
+      "principal_angles_deg": [
+        0.0,
+        0.0,
+        0.049,
+        0.099,
+        0.224,
+        0.473,
+        0.726,
+        1.085
+      ],
+      "cosines": [
+        1.0,
+        1.0,
+        1.0,
+        0.999999,
+        0.999992,
+        0.999966,
+        0.99992,
+        0.999821
+      ],
+      "k_used": 8
+    },
+    "interpretation": "Small chordal distance = taken and blocked candidates live in similar feature subspaces (shared coarse geometry). Compare to null_shuffled_labels: if real distance \u2248 null, no subspace separation. Subspace proximity is evidence only, not proof (Prop 2.3). The w|0|w structure: candidate = a_{n-1}-n recentred at 0 gives \u00b1n pairs."
+  },
+  "shadow_rank": {
+    "win_size": 16,
+    "n_windows": 49985,
+    "real": {
+      "final_rank": 16,
+      "max_possible_rank": 16,
+      "ranks_at_checkpoints": {
+        "10": 10,
+        "50": 16,
+        "100": 16,
+        "500": 16,
+        "1000": 16,
+        "5000": 16,
+        "10000": 16,
+        "49985": 16
+      }
+    },
+    "null_random": {
+      "final_rank": 16,
+      "max_possible_rank": 16,
+      "ranks_at_checkpoints": {
+        "10": 10,
+        "50": 16,
+        "100": 16,
+        "500": 16,
+        "1000": 16,
+        "5000": 16,
+        "10000": 16,
+        "49985": 16
+      }
+    },
+    "pure_alternation": {
+      "final_rank": 2,
+      "max_possible_rank": 16,
+      "ranks_at_checkpoints": {
+        "10": 2,
+        "50": 2,
+        "100": 2,
+        "500": 2,
+        "1000": 2,
+        "5000": 2,
+        "10000": 2,
+        "49985": 2
+      }
+    },
+    "interpretation": "Window size 16: pure alternation has rank 2 (two distinct windows). Recaman b_n is near-alternating (phase-slip ~0.001), so expect rank just above 2. Random iid stream reaches rank min(16, n_windows) quickly. Low final rank \u2192 shadow collapse (stream lives on a low-dim F_2 subspace)."
+  },
+  "grassmannian_principle": "A Grassmannian shadow detects rank/subspace/dependency of a chosen representation (Lemma 2.2). It cannot detect an unrelated invariant (Lemma 2.1) unless null-controlled coupling is demonstrated (Prop 4.1). Ref: grassmannian_shadows.pdf + ranked_prime_tower_grassmannian_closure_final.pdf"
+}
