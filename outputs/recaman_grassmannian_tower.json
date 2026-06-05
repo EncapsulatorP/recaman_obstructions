@@ -291,7 +291,7 @@
         "new_independent": 2
       }
     ],
-    "interpretation": "Pure alternation has 2-kernel rank 2 (two constant subsequences). Recaman b_n has phase-slip rate ~0.001, so expect rank slightly > 2. Random has rank ~ min(D, cumulative_subseqs) \u2014 grows fast. Rank stabilisation \u2192 finite 2-kernel \u2192 stream is 2-automatic."
+    "interpretation": "Pure alternation has 2-kernel rank 2 (two constant subsequences). Recaman b_n has phase-slip rate ~0.001, so expect rank slightly > 2. Random has rank ~ min(D, cumulative_subseqs) \u2014 grows fast. Rank stabilisation \u2192 finite 2-kernel \u2192 stream is 2-automatic. ARTIFACT WARNING: at scale j > floor(log2(N/D)) subsequences are shorter than D, so zero-padding forces artificial rank saturation that is NOT evidence of 2-automaticity. Trust only the rank values at j \u2264 log2(N/D)."
   },
   "branch_grassmannian": {
     "taken_count": 24991,

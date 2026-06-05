@@ -411,8 +411,9 @@ def main() -> int:
             f"{rn['rank']:>11} | {rr['new_independent']}"
         )
     import math
-    j_valid = max(0, int(math.log2(args.steps / args.vec_dim)) - 1)
-    print(f"  NOTE: valid range j≤{j_valid} (subseq length > D={args.vec_dim}).")
+    # j valid when min subseq length >= D: floor(N / 2^j) >= D  =>  j <= log2(N/D)
+    j_valid = max(0, int(math.log2(args.steps / args.vec_dim)))
+    print(f"  NOTE: valid range j<={j_valid} (subseq length > D={args.vec_dim}).")
     print(f"  At j>{j_valid} zero-padding forces artificial rank saturation.")
     print(f"  Time: {time.perf_counter()-t1:.2f}s")
     print()
