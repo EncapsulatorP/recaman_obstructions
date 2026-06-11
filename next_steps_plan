@@ -1,0 +1,8 @@
+
+### 3. recaman_obstructions
+**Core opportunity:** Turn the obstruction classification into the **first explicit density formula** for Recamán gaps.
+
+**Action plan (4 weeks):**
+1. **Week 1:** Extend the obstruction catalog to 10^6 terms. Fit a precise power-law + oscillatory model for the frequency of each obstruction class.
+2. **Week 2:** Derive a closed-form **singular series analogue** for Recamán (using the same mod-30 framework you already have). Prove it matches the observed frequencies to 4 decimal places.
+3. **Week 3:** Conjecture and verify (up to 10^7) a new Recamán density law: “The probability of obstruction class k at step n is exactly C_k / log n + O(1/n).”
